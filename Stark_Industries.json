@@ -1,0 +1,35 @@
+{
+    "BUSINESS_TYPE": "Manufacturing",
+    "COMPANY": "Stark Industries",
+    "COMPANY_CEO": "Pepper Potts",
+    "FINANCE": [
+        {
+            "Q1_EARNINGS": 7825000000.0,
+            "Q2_EARNINGS": 7825000000.0,
+            "Q3_EARNINGS": 7825000000.0,
+            "Q4_EARNINGS": 7825000000.0,
+            "YEAR": 2018
+        },
+        {
+            "Q1_EARNINGS": 7825000000.0,
+            "Q2_EARNINGS": 7825000000.0,
+            "Q3_EARNINGS": 7825000000.0,
+            "Q4_EARNINGS": 7825000000.0,
+            "YEAR": 2017
+        },
+        {
+            "Q1_EARNINGS": 7825000000.0,
+            "Q2_EARNINGS": 7825000000.0,
+            "Q3_EARNINGS": 7825000000.0,
+            "Q4_EARNINGS": 7825000000.0,
+            "YEAR": 2016
+        },
+        {
+            "Q1_EARNINGS": 7825000000.0,
+            "Q2_EARNINGS": 7825000000.0,
+            "Q3_EARNINGS": 7825000000.0,
+            "Q4_EARNINGS": 7825000000.0,
+            "YEAR": 2015
+        }
+    ]
+}

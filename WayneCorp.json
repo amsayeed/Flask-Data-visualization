@@ -1,0 +1,35 @@
+{
+    "BUSINESS_TYPE": "Multinational Conglomerate",
+    "COMPANY": "WayneCorp",
+    "COMPANY_CEO": "Bruce Wayne",
+    "FINANCE": [
+        {
+            "Q1_EARNINGS": 7825000000.0,
+            "Q2_EARNINGS": 7825000000.0,
+            "Q3_EARNINGS": 7825000000.0,
+            "Q4_EARNINGS": 7825000000.0,
+            "YEAR": 2018
+        },
+        {
+            "Q1_EARNINGS": 4321000000.0,
+            "Q2_EARNINGS": 5412000000.0,
+            "Q3_EARNINGS": 1255000000.0,
+            "Q4_EARNINGS": 7622000000.0,
+            "YEAR": 2017
+        },
+        {
+            "Q1_EARNINGS": 4321000000.0,
+            "Q2_EARNINGS": 5412000000.0,
+            "Q3_EARNINGS": 1255000000.0,
+            "Q4_EARNINGS": 7622000000.0,
+            "YEAR": 2017
+        },
+        {
+            "Q1_EARNINGS": 2511000000.0,
+            "Q2_EARNINGS": 3345000000.0,
+            "Q3_EARNINGS": 4556000000.0,
+            "Q4_EARNINGS": 7001000000.0,
+            "YEAR": 2015
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <h1>{{ _('Hi, %(username)s!', username=current_user.username) }}</h1>
+    <p>Check out this boring data...</p>
+    <table class="table">
+        <caption>List of users</caption>
+        <thead>
+          <tr class="bg-success">
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            <th scope="col">Join date</th>
+            <th scope="col">Tweets</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-info">
+            <th scope="row">1</th>
+            <td>Allyn</td>
+            <td>Hunt</td>
+            <td>@Allyn_H_</td>
+            <td>Jan 2015</td>
+            <td>2660</td>
+          </tr>
+          <tr class="bg-info">
+            <th scope="row">2</th>
+            <td>Joe</td>
+            <td>Bloggs</td>
+            <td>@jbloggs</td>
+            <td>Feb 2018</td>
+            <td>5</td>
+          </tr>
+          <tr class="bg-info">
+            <th scope="row">2</th>
+            <td>Joe</td>
+            <td>Bloggs</td>
+            <td>@jbloggs</td>
+            <td>Feb 2018</td>
+            <td>5</td>
+          </tr>
+          <!-- <tr class="bg-info">
+            <th scope="row">2</th>
+            <td>Joe</td>
+            <td>Bloggs</td>
+            <td>@jbloggs</td>
+            <td>Feb 2018</td>
+            <td>5</td>
+          </tr>
+          <tr class="bg-info">
+            <th scope="row">2</th>
+            <td>Joe</td>
+            <td>Bloggs</td>
+            <td>@jbloggs</td>
+            <td>Feb 2018</td>
+            <td>5</td>
+          </tr>
+          <tr class="bg-info">
+            <th scope="row">2</th>
+            <td>Joe</td>
+            <td>Bloggs</td>
+            <td>@jbloggs</td>
+            <td>Feb 2018</td>
+            <td>5</td>
+          </tr>    -->
+          <tr class="bg-info">
+            <th scope="row">2</th>
+            <td>Joe</td>
+            <td>Bloggs</td>
+            <td>@jbloggs</td>
+            <td>Feb 2018</td>
+            <td>5</td>
+          </tr>
+          <tr class="bg-danger">
+            <th scope="row">3</th>
+            <td>Charlie</td>
+            <td>Day</td>
+            <td>@its_charlie_day</td>
+            <td>Mar 2014</td>
+            <td>382</td>
+          </tr>
+        </tbody>
+      </table>
+<script src="{{ url_for('static', filename='dist/bundle.js') }}"></script>
+{% endblock %}
